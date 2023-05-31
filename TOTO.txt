@@ -1,0 +1,13 @@
+Go back to the first part of the tutorial to alter the package.json file
+
+Document managing of dependencies... e.g.
+
+npm install --save lodash
+
+Add an NPM script to do the actual build process.
+
+Add the SASS loader and minimize the CSS
+
+Add a resource loader for video files and for fonts
+
+(/ ) Add the HTML loader
