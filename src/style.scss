@@ -1,0 +1,36 @@
+.video-container {
+    position: relative;
+    height: 250px;
+    width: 300px;
+
+    > a {
+        display: block;
+        position: absolute;
+    }
+}
+
+.video-controls {
+    position: absolute;
+    bottom: 0;
+    height: 26px;
+    width: 100%;
+    overflow: auto;
+    vertical-align: middle;
+}
+
+.video-control {
+    display: inline-block;
+    color: #FFFFFF;
+    height: 100%;
+    margin-left: 5px;
+    width: auto;
+
+    svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.video-control-hidden {
+    display: none;
+}
